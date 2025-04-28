@@ -10,14 +10,7 @@ export default class ProductHTTPHandler {
         this.productController = new ProductController();
     }
 
-    getProducts = async (req: Request, res: Response, next: NextFunction) => {
-        try {
-            const products = await this.productController.getAllProducts();
-            res.json(products);
-        } catch (error) {
-            next(error);
-        }
-    };
+    
 
     getProductById = async (req: Request, res: Response, next: NextFunction) => {
         try {
