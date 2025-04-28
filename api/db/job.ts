@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { pool } from "@/db/config";
+import { pool } from "../db/config";
 
 export async function getJobsDB(req: Request, res: Response) {
   try {

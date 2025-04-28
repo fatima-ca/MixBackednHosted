@@ -1,7 +1,7 @@
 //* 2. Handler Products
 
 import { Request, Response, NextFunction } from 'express';
-import ProductController from '@/controllers/products';
+import ProductController from '../controllers/products';
 
 export default class ProductHTTPHandler {
     private productController: ProductController;

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getJobs, getTeams } from "@/controllers/job.controller";
+import { getJobs, getTeams } from "../controllers/job.controller";
 
 const router = Router();
 router.get("/jobs", getJobs);

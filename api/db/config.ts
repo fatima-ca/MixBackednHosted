@@ -1,5 +1,5 @@
 import sql from 'mssql';
-import { dbConfig } from '@/config/db';
+import { dbConfig } from '../config/db';
 
 const user = dbConfig.user;
 const password = dbConfig.password;

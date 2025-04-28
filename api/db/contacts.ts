@@ -1,11 +1,11 @@
 //* 4. DB Contact
 
 import sql from 'mssql';
-import config from '@/db/config';
-import ContactDB from '@/types/db/ContactDB';
-import Contact from '@/types/controller/Contact';
-import EnterpriseDB from '@/types/db/EnterpriseDB';
-import Enterprise from '@/types/controller/Enterprise';
+import config from '../db/config';
+import ContactDB from '../types/db/ContactDB';
+import Contact from '../types/controller/Contact';
+import EnterpriseDB from '../types/db/EnterpriseDB';
+import Enterprise from '../types/controller/Enterprise';
 
 export default class ContactService {
   private pool: sql.ConnectionPool;

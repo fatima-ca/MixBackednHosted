@@ -5,9 +5,9 @@ import cookieParser from "cookie-parser";
 import signupRoutes from "./routes/user.routes";
 import auth0Routes from "./routes/auth0.routes";
 import teamRoutes from "./routes/job.routes";
-import productsRoutes from '@/routes/products';
-import contactsRoutes from '@/routes/contacts';
-import enterprisesRoutes from '@/routes/enterprises';
+import productsRoutes from './routes/products'
+import contactsRoutes from './routes/contacts';
+import enterprisesRoutes from './routes/enterprises';
 
 const PORT = serverConfig.port;
 

@@ -1,5 +1,5 @@
 import express from 'express';
-import ProductHandler from '@/handlers/products';
+import ProductHandler from '../handlers/products';
 
 const router = express.Router();
 const productHandler = new ProductHandler();

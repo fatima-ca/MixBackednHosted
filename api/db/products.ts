@@ -1,8 +1,8 @@
 import sql from 'mssql';
 
-import config from '@/db/config';
-import Product from '@/types/controller/Product';
-import ProductDB from '@/types/db/ProductDB';
+import config from '../db/config';
+import Product from '../types/controller/Product';
+import ProductDB from '../types/db/ProductDB';
 
 export default class ProductService {
   private pool: sql.ConnectionPool;

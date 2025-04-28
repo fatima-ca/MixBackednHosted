@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { getJobsDB, getTeamsDB } from "@/db/job";
+import { getJobsDB, getTeamsDB } from "../db/job";
 
 export async function getJobs(req: Request, res: Response){
     getJobsDB(req, res);

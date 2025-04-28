@@ -1,8 +1,8 @@
 //* 3. Controller Products
 
-import ProductService from '@/db/products';
-import Product from '@/types/controller/Product';
-import ProductDB from '@/types/db/ProductDB';
+import ProductService from '../db/products';
+import Product from '../types/controller/Product';
+import ProductDB from '../types/db/ProductDB';
 
 export default class ProductController {
     private service = new ProductService;

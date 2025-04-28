@@ -1,8 +1,8 @@
 //* 2. Handler Enterprises
 
 import { Request, Response, NextFunction } from 'express';
-import EnterpriseController from '@/controllers/enterprises';
-import EnterpriseDB from '@/types/db/EnterpriseDB';
+import EnterpriseController from '../controllers/enterprises';
+import EnterpriseDB from '../types/db/EnterpriseDB';
 
 export default class EnterpriseHTTPHandler {
     private contactController: EnterpriseController;

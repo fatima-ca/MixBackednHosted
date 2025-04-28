@@ -1,8 +1,8 @@
 //* 2. Handler Contacts
 
 import { Request, Response, NextFunction } from 'express';
-import ContactController from '@/controllers/contacts';
-import Contact from '@/types/db/ContactDB';
+import ContactController from '../controllers/contacts';
+import Contact from '../types/db/ContactDB';
 
 export default class ContactHTTPHandler {
     private contactController: ContactController;

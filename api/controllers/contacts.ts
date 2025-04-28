@@ -1,10 +1,10 @@
 //* 3. Controller Conctacts
 
-import ContactService from '@/db/contacts';
-import Enterprise from '@/types/controller/Enterprise';
-import ContactDB from '@/types/db/ContactDB';
-import Contact from '@/types/db/ContactDB';
-import EnterpriseDB from '@/types/db/EnterpriseDB';
+import ContactService from '../db/contacts';
+import Enterprise from '../types/controller/Enterprise';
+import ContactDB from '../types/db/ContactDB';
+import Contact from '../types/db/ContactDB';
+import EnterpriseDB from '../types/db/EnterpriseDB';
 
 export default class ContactController {
     private service = new ContactService;

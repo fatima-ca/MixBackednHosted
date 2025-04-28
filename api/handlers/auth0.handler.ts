@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
-import { AuthController } from "@/controllers/auth0.controller";
-import { auth0Service } from "@/services/index";
+import { AuthController } from "../controllers/auth0.controller";
+import { auth0Service } from "../services/index";
 
 const controller = new AuthController(auth0Service);
 

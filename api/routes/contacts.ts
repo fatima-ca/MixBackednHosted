@@ -1,7 +1,7 @@
 //* 1. Routes Contacts
 
 import express from 'express';
-import ContactHTTPHandler from '@/handlers/contacts';
+import ContactHTTPHandler from '../handlers/contacts';
 
 const router = express.Router();
 const contactHandler = new ContactHTTPHandler();

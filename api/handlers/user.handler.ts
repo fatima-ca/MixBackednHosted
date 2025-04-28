@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { userControllerPromise } from "@/factories/controllerFactory";
+import { userControllerPromise } from "../factories/controllerFactory";
 
 
 export class UserHttpHandler {

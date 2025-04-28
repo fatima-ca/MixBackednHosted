@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { Auth0Service } from "@/services/auth0.service";
-import { setAuthCookies } from "@/utils/cookieManager";
+import { Auth0Service } from "../services/auth0.service";
+import { setAuthCookies } from "../utils/cookieManager";
 
 export class AuthController {
   private auth0Service: Auth0Service;

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { Auth0HttpHandler } from "@/handlers/auth0.handler";
-import { wrapAsync } from "@/utils/wrapAsync";
+import { Auth0HttpHandler } from "../handlers/auth0.handler";
+import { wrapAsync } from "../utils/wrapAsync";
 
 const router = Router();
 const handler = new Auth0HttpHandler();

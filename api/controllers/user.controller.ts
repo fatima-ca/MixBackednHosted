@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
-import { Auth0Service } from "@/services/auth0.service";
-import { UserDTO } from "@/types/db/user";
-import { UserDbService } from "@/db/user";
-import { EmailService } from "@/services/email.service";
-import { AuthRequest } from "@/types/controller/auth0";
-import { setAuthCookies, clearAuthCookies } from "@/utils/cookieManager";
+import { Auth0Service } from "../services/auth0.service";
+import { UserDTO } from "../types/db/user";
+import { UserDbService } from "../db/user";
+import { EmailService } from "../services/email.service";
+import { AuthRequest } from "../types/controller/auth0";
+import { setAuthCookies, clearAuthCookies } from "../utils/cookieManager";
 
 export class UserController {
   constructor(

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { jwtCheckFromCookie } from "@/middleware/auth0";
-import { UserHttpHandler } from "@/handlers/user.handler";
+import { jwtCheckFromCookie } from "../middleware/auth0";
+import { UserHttpHandler } from "../handlers/user.handler";
 
 const router = Router();
 const handler = new UserHttpHandler();
